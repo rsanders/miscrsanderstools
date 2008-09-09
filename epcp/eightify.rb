@@ -22,7 +22,7 @@ class Eightify
     list = list.map {|filename|  filename.gsub(/\.[^.]+$/, '').downcase }
     
     string = list.join(" ")
-    counts = wordcount (string.split(/[^\w]/).map {|word| word.chomp})
+    counts = wordcount(string.split(/[^\w]/).map {|word| word.chomp})
     pairs = []
     counts.each { |word,count| pairs.push [word,count] if word != '' and count > 1 }
     dp "commons unsorted is #{counts}"

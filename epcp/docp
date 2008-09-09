@@ -1,0 +1,39 @@
+#!/usr/bin/ruby
+
+require 'pathname'
+
+$LOAD_PATH.push(File.dirname((Pathname.new __FILE__).realpath.to_s))
+
+require 'eightify.rb'
+
+class EpisodeCopier
+
+  def copy(files, destdir)
+    puts "files is #{files}"
+    e8 = Eightify.new
+    destnames = e8.process files.map {|file| File.basename file}
+    puts "files=#{files}, destnames=#{destnames}"
+    (0..files.length-1).each {|i| 
+      res = system("cp", "-i", files[i], destdir + "/" + destnames[i])
+    }
+  end
+
+end
+
+def usage
+  puts "Usage: docp file [file...] destdir"
+end
+
+if $0 == __FILE__
+  # direct call
+
+  if ARGV.length < 2
+    usage
+    exit 5
+  end
+
+  copier = EpisodeCopier.new
+  dest = ARGV.pop
+  copier.copy(ARGV, dest)
+
+end
