@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dynamically pull bookmarks from Safari
+desc: |-
+  plcat ~/Library/Safari/Bookmarks.plist 
+  see http://www.macosxhints.com/article.php?story=20061227073124530
+type: :feature
+component: progdocbrowser
+release: 
+reporter: Robert Sanders <rsanders@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2008-09-06 17:51:41.476241 Z
+references: []
+
+id: 3d8e174c477bd5d86e920e5e2198fbe527f9f833
+log_events: 
+- - 2008-09-06 17:51:42.565381 Z
+  - Robert Sanders <rsanders@gmail.com>
+  - created
+  - ""

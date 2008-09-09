@@ -1,0 +1,8 @@
+--- !ditz.rubyforge.org,2008-03-06/project 
+name: progdocbrowser
+version: "0.4"
+components: 
+- !ditz.rubyforge.org,2008-03-06/component 
+  name: progdocbrowser
+releases: []
+

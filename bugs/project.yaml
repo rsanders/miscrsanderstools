@@ -1,0 +1,12 @@
+--- !ditz.rubyforge.org,2008-03-06/project 
+name: miscrsanderstools
+version: "0.4"
+components: 
+- !ditz.rubyforge.org,2008-03-06/component 
+  name: miscrsanderstools
+- !ditz.rubyforge.org,2008-03-06/component 
+  name: epcp
+- !ditz.rubyforge.org,2008-03-06/component 
+  name: progdocbrowser
+releases: []
+

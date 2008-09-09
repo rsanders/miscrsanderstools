@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: restyle bookmarks
+desc: make prettier / more ajaxy
+type: :feature
+component: progdocbrowser
+release: 
+reporter: Robert Sanders <rsanders@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2008-09-06 17:51:20.467193 Z
+references: []
+
+id: d94cc65469fd47f18274e055694fc49984d741f3
+log_events: 
+- - 2008-09-06 17:51:21.698667 Z
+  - Robert Sanders <rsanders@gmail.com>
+  - created
+  - ""
